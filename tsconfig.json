@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"allowJs": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"module": "ESNext",
+		"target": "ES6",
+		"lib": ["ES5", "ES6", "DOM", "DOM.Iterable"],
+		"jsx": "react-jsx",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"rootDir": ".",
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true
+	},
+	"exclude": ["node_modules", "dist"]
+}
